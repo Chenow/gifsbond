@@ -1,0 +1,43 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	overflow-x: hidden;
+}
+
+section {
+	width: 100%;
+	background-color: rgb(1, 89, 160);
+	padding-top: 15vh;
+	padding-bottom: 10vh;
+	color: #fdd1a0;
+}
+
+.text_explicatif {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.text_explicatif p {
+	max-width: 60ch;
+	text-align: justify;
+	text-align-last: center;
+
+	padding: 20px;
+}
+
+.cartes_container {
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.cartes_container img {
+	width: 300px;
+	height: auto;
+	max-width: 90vw;
+	margin: 20px;
+}

@@ -1,1 +1,0 @@
-action="includes/systeme_commandes_crepe_<?php echo $test_VIP ?>.php"
